@@ -1,0 +1,19 @@
+2023-03-30T08:46:32+00:00 ERROR GET Request: https://api.pinterest.com/ads/v4/advertisers/countries
+Status Code: 1
+API response: stream_socket_client(): SSL: Connection reset by peer
+stream_socket_client(): Failed to enable crypto
+stream_socket_client(): unable to connect to ssl://api.pinterest.com:443 (Unknown error)
+2023-03-30T08:59:40+00:00 ERROR GET Request: https://api.pinterest.com/ads/v4/advertisers/countries
+Status Code: 1
+API response: stream_socket_client(): SSL: Connection reset by peer
+stream_socket_client(): Failed to enable crypto
+stream_socket_client(): unable to connect to ssl://api.pinterest.com:443 (Unknown error)
+2023-03-30T10:10:31+00:00 ERROR GET Request: https://api.pinterest.com/ads/v4/advertisers/countries
+Status Code: 401
+API response: Reconnect to your Pinterest account
+2023-03-30T10:10:31+00:00 ERROR GET Request: https://api.pinterest.com/ads/v4/advertisers/countries
+Status Code: 401
+API response: Reconnect to your Pinterest account
+2023-03-30T10:38:41+00:00 ERROR GET Request: https://api.pinterest.com/ads/v4/advertisers/countries
+Status Code: 401
+API response: Reconnect to your Pinterest account

@@ -1,0 +1,6 @@
+2023-03-29T05:58:57+00:00 CRITICAL Cannot redeclare social_button_shortcode() (previously declared in /var/www/html/wp_assignment3/wordpress/wp-content/themes/astra-child/functions.php:25) in /var/www/html/wp_assignment3/wordpress/wp-content/themes/astra/functions.php on line 184
+
+2023-03-29T05:58:59+00:00 CRITICAL Cannot redeclare social_button_shortcode() (previously declared in /var/www/html/wp_assignment3/wordpress/wp-content/themes/astra-child/functions.php:25) in /var/www/html/wp_assignment3/wordpress/wp-content/themes/astra/functions.php on line 184
+
+2023-03-29T05:59:12+00:00 CRITICAL Cannot redeclare social_button_shortcode() (previously declared in /var/www/html/wp_assignment3/wordpress/wp-content/themes/astra-child/functions.php:25) in /var/www/html/wp_assignment3/wordpress/wp-content/themes/astra/functions.php on line 184
+

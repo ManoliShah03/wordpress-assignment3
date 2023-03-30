@@ -1,0 +1,171 @@
+@charset "UTF-8";
+/*
+Theme Name: Retailer Market
+Author: TheMagnifico52
+Theme URI: https://www.themagnifico.net/themes/free-retailer-wordpress-theme/
+Author URI: https://www.themagnifico.net/
+Description: Retailer Market is a Wordpress theme with its layout giving professional websites for the marketplace, stores, shops, Woocommerce, grocery, multivendor shops, vegetable store, food delivery chains, food business, fashion stores, electronics, and any kind of online stores. This is a free theme with loads of features and its minimal impressive design can make your audience look directly at the important facts and key information published. It is clean and clutter-free making every product look exceptionally good on your website. Retina ready display will bring a clear view of images and responsive design make the layout adjust to every device’s screen with perfection. With the user-friendly interface of this theme, it becomes easy for novices as well as beginners to get a wonderful design. Personalization options are going to make it simple for you to change the default colors and fonts. For better performance and faster page load times, it has well-optimized codes that will also make your website lightweight. SEO-friendly design can make your website have more visitors as it can get easily noticed. Call to Action Button (CTA) can make a huge difference in conversions and provide an interactive environment for your audience. With social media icons, you can have effective promotion options.
+Version: 1.6
+Tested up to: 6.1
+Requires PHP: 7.2
+Requires at least: 5.0
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template: ecommerce-zone
+Text Domain: retailer-market
+Tags: custom-logo, one-column, two-columns, wide-blocks, block-styles, editor-style, sticky-post, custom-background, custom-colors, custom-header, custom-menu, featured-images, flexible-header, full-width-template, threaded-comments, theme-options, rtl-language-support, left-sidebar, right-sidebar, grid-layout, blog, e-commerce, food-and-drink
+
+Retailer Market WordPress Theme has been created by TheMagnifico52(themagnifico.net), 2022.
+Retailer Market WordPress Theme is released under the terms of GNU GPL
+*/
+
+a, .sidebar a:hover, #colophon a:hover, #colophon a:focus, p.price, .woocommerce ul.products li.product .price, .woocommerce div.product p.price, .woocommerce div.product span.price, .woocommerce-message::before, .woocommerce-info::before, .navbar-brand a{
+    color: #d30b5c;
+}
+.sticky .entry-title::before, .main-navigation .menu > li > a:hover, .main-navigation .sub-menu, #button, .sidebar input[type="submit"], .comment-respond input#submit, .post-navigation .nav-previous a:hover, .post-navigation .nav-next a:hover, .posts-navigation .nav-previous a:hover, .posts-navigation .nav-next a:hover, .pro-button a:hover, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .wp-block-button__link, .serv-box:hover, .woocommerce-account .woocommerce-MyAccount-navigation ul li, .btn-primary, span.cart-value, .toggle-nav.mobile-menu button, .woocommerce .woocommerce-ordering select, .woocommerce ul.products li.product .onsale, .woocommerce span.onsale, .slider-inner-box a:hover, .cat-pro-inner-box a:hover, span.onsale,.all-categories,.sidebar .tagcloud a:hover{
+    background: #d30b5c;
+}
+.woocommerce-message, .woocommerce-info, .wp-block-pullquote, .wp-block-quote, .wp-block-quote:not(.is-large):not(.is-style-large), .wp-block-pullquote, .btn-primary, .pro-button a:hover, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .slider-inner-box a:hover, .cat-pro-inner-box a:hover, #homepage-product h3{
+    border-color: #d30b5c;
+}
+
+.user-account {
+    border: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    text-align: right;
+}
+.head-menu{
+  padding: 18px;
+}
+.socialmedia {
+    background: #d30b5c;
+}
+.socialmedia,.logo-head,.head-menu{
+    border: none;
+}
+.socialmedia a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+}
+.head-menu {
+    background: #353238;
+}
+.main-navigation .menu > li > a{
+    color: #fff;
+}
+.navbar{
+    padding: 0;
+}
+.logo-head form.woocommerce-product-search{
+    border-color: #938e99;
+}
+.logo-head button {
+    padding: 9px 25px;
+    background: url(assets/img/icon.png) no-repeat scroll 15px 8px #d30b5c;
+    float: right;
+    text-indent: -9999px;
+    border: none;
+    position: relative;
+    top: -6px;
+    left: 5px;
+    border-radius: 0 5px 5px 0;
+}
+.all-categories button {
+    background: transparent;
+    border: none;
+    padding: 15px 25px;
+    color: #fff;
+}
+.home_product_cat h4 {
+    font-size: 16px;
+    border-bottom: solid 1px #efefef;
+    padding: 10px 15px;
+    margin-bottom: 0;
+}
+.home_product_cat{
+    display: none;
+}
+.home_product_cat {
+    position: absolute;
+    background: #fff;
+    z-index: 999;
+    width: 100%;
+}
+.sale-btn a {
+    background: #4b484e;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 15px 5px;
+}
+.sale-btn a:hover{
+    color: #fff;
+}
+
+.slider-inner-box {
+    left: 15%;
+    right: 50%;
+    padding: 0;
+    background: transparent;
+}
+.slider-inner-box h2 {
+    font-size: 50px;
+    font-style: italic;
+}
+.slider-inner-box p,.slider-inner-box a:hover{
+    color: #fff;
+}
+.slider-inner-box a {
+    color: #d30b5c;
+    padding: 15px 20px;
+}
+
+.cat-pro-inner-box {
+    background: transparent;
+    right: 10%;
+    text-align: right;
+    padding: 0;
+}
+.cat-pro-inner-box a {
+    padding: 10px;
+    border: none;
+    background: #d30b5c;
+}
+.admin-bar .head-menu.stick_header{
+    background: #353238;
+}
+
+@media screen and (min-width: 320px) and (max-width: 720px){
+    .socialmedia,.user-account {
+        text-align: center;
+    }
+    .logo-head button {
+        top: -30px;
+    }
+    .sale-btn{
+        display: inline-grid;
+    }
+    .slider-inner-box {
+        right: 10%;
+    }
+    .slider-inner-box p{
+        display: none;
+    }
+    .slider-inner-box h2 {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 721px) and (max-width: 999px){
+    .slider-inner-box {
+        right: 30%;
+    }
+}
+@media screen and (max-width: 1000px){
+.toggle-nav {
+    z-index: 9999;
+  }
+}
